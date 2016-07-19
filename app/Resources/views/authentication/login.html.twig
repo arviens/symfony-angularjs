@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    <div class="container">
+        <div class="center-block auth-block">
+            <div class="login">
+                <form>
+                    <div class="input-block">
+
+                        <div class="form-group">
+                            <label for="usr">Username:</label>
+                            <input type="text" class="form-control" id="usr">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                    </div>
+                    <div class="bottom-block  text-center">
+                        <button type="button" class="btn btn-default">
+                            Login
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
